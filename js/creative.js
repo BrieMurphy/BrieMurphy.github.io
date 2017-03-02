@@ -7,7 +7,7 @@
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
-        event.preventDefault();
+        event.preventDefault(); 
     });
 
     // Highlight the top nav as scrolling occurs
@@ -53,7 +53,7 @@
         mainClass: 'mfp-img-mobile',
         gallery: {
             enabled: true,
-            navigateByImgClick: true,
+            navigateByImgClick: false,
             preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
         },
         image: {
