@@ -60,7 +60,7 @@ aside {
   padding: 50px 0;
 }
 .no-padding {
-  padding: 0;
+  padding: 0px;
 }
 .navbar-default {
   background-color: white;
@@ -454,4 +454,10 @@ footer {
 .link-container {
   align-items: inline;
   text-align: center;
+}
+.contact {
+    background-color: #CCDBAD;
+}
+#contact {
+  background-color: #CCDBAD;
 }
